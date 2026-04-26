@@ -21,5 +21,3 @@ class Solution:
                     stk.append(key)
         
         return len(visit) == len(rooms)
-            
-        
