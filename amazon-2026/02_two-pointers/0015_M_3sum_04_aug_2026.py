@@ -6,6 +6,9 @@ class Solution:
             -> sort the list
         2. loop over each element until 3 elements left so until len(nums)-3
             perform two sum II (two pointer)
+        NOTE: DO NOT FORGET TO CHECK FOR DUPLICATES
+        - once before while loop starts to check if new anchor is good
+        - another when new elements in two sum are being chosen
         """
         nums = sorted(nums)
         
